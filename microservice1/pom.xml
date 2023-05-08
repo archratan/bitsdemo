@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bits</groupId>
-	<artifactId>microservice1</artifactId>
+	<artifactId>MerchantClassifier${angus-mail.version}</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservice1</name>
 	<description>Demo project for Spring Boot Moicroservice for Assignment</description>
