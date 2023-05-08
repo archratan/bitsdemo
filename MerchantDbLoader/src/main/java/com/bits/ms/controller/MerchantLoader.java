@@ -17,7 +17,7 @@ public class MerchantLoader {
 	MerchantLoaderService MerchantLoaderService;
 	
 	 @PostMapping("/loadMerchant")
-	  MerchantProfile  generarteSampleQuoteData(@RequestBody MerchantProfile  merchant ) {
+	  MerchantProfile  loadMerchantToDB(@RequestBody MerchantProfile  merchant ) {
 		 return MerchantLoaderService.captureMerchantProfile(merchant);
 	   }
 
